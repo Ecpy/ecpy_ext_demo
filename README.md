@@ -18,7 +18,7 @@ Files :
   Ecpy project the authors are listed in the AUTHORS file and the licence is
   set to BSD. By default, the package declare an extension to the entry point
   'ecpy_package_extension' which to the 'list_manifests' function found into
-  the __init__.py module of the ecpy_ext_demo package. You can make it point to
+  the \_\_init\_\_.py module of the ecpy_ext_demo package. You can make it point to
   any function of your choice or leave the default setting.
   For more details about the working of setup scripts please refer to the
   setuptools documentation.
@@ -37,7 +37,7 @@ Folders :
 
 - ecpy_ext_demo : this is the folder where to add your code and that you SHOULD
   rename. Inside it you will three files :
-    - __init__.py : this module defines a single function 'list_manifests' that
+    - \_\_init\_\_.py : this module defines a single function 'list_manifests' that
       should return a list of all the manifest that should be registered. You
       can remove if you made the entry point points to another function.
     - manifest.enaml : this module defines the plugin manifest which lists the
