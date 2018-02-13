@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # -----------------------------------------------------------------------------
-# Copyright 2015 by Ecpy_ext_demo Authors, see AUTHORS for more details.
+# Copyright 2015 by Exopy_ext_demo Authors, see AUTHORS for more details.
 #
 # Distributed under the terms of the BSD license.
 #
@@ -12,4 +12,4 @@
 from __future__ import (division, unicode_literals, print_function,
                         absolute_import)
 
-pytest_plugins = str('ecpy.testing.fixtures'),
+pytest_plugins = str('exopy.testing.fixtures'),

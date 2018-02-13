@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # -----------------------------------------------------------------------------
-# Copyright 2015 by Ecpy_ext_demo Authors, see AUTHORS for more details.
+# Copyright 2015 by Exopy_ext_demo Authors, see AUTHORS for more details.
 #
 # Distributed under the terms of the BSD license.
 #
@@ -13,20 +13,20 @@ from __future__ import (division, unicode_literals, print_function,
                         absolute_import)
 
 from enaml.workbench.api import PluginManifest, Extension
-from ecpy.app.api import AppStartup
+from exopy.app.api import AppStartup
 
 
 enamldef ExtDemoManifest(PluginManifest):
-    """The manifest declaring the extension points to the Ecpy.
+    """The manifest declaring the extension points to the Exopy.
 
     """
-    id = 'ecpy_ext_demo'
+    id = 'exopy_ext_demo'
 
     Extension:
-        point = 'ecpy.app.startup'
+        point = 'exopy.app.startup'
         AppStartup:
-            id = 'ecpy_ext_demo'
+            id = 'exopy_ext_demo'
             run => (workbench, cmd_args):
-                print('The dummy ecpy_ext_demo package is installed. This '
+                print('The dummy exopy_ext_demo package is installed. This '
                       'package is meant to be used as a template and should '
                       'not be installed.')

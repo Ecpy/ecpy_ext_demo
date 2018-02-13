@@ -1,13 +1,13 @@
-Ecpy ext demo
+Exopy ext demo
 =============
 
-This package provides a template for creating Ecpy extensions packages. An
-extension package is used to extend the capabilities of the main Ecpy
+This package provides a template for creating Exopy extensions packages. An
+extension package is used to extend the capabilities of the main Exopy
 application through plugins.
 
 This README gives a brief overview of what needs to be edited in the template.
 For more details about the mechanism behind extension packages please refer to
-the Ecpy documentation.
+the Exopy documentation.
 
 The package contains a number of files and two subfolders :
 
@@ -15,10 +15,10 @@ Files :
 
 - setup.py : This is the installation file. You should edit the name of the
   project, and other informations as you see fit. Note that following the main
-  Ecpy project the authors are listed in the AUTHORS file and the licence is
+  Exopy project the authors are listed in the AUTHORS file and the licence is
   set to BSD. By default, the package declare an extension to the entry point
-  'ecpy_package_extension' which to the 'list_manifests' function found into
-  the \_\_init\_\_.py module of the ecpy_ext_demo package. You can make it
+  'exopy_package_extension' which to the 'list_manifests' function found into
+  the \_\_init\_\_.py module of the exopy_ext_demo package. You can make it
   point to any function of your choice or leave the default setting.
   For more details about the working of setup scripts please refer to the
   setuptools documentation.
@@ -35,7 +35,7 @@ The following files can be left untouched.
 
 Folders :
 
-- ecpy_ext_demo : this is the folder where to add your code and that you SHOULD
+- exopy_ext_demo : this is the folder where to add your code and that you SHOULD
   rename. Inside it you will three files :
     - \_\_init\_\_.py : this module defines a single function 'list_manifests' 
 	  that
@@ -49,8 +49,8 @@ Folders :
       should edit the name
 - tests : in this folder you can add unit test for your package (if you do so
   it might make sense to configure a Continuous integration system for your
-  package, Ecpy relies on Tracis CI). By default the tests check that the
-  extension package is correctly detected by Ecpy. To work this requires the
+  package, Exopy relies on Tracis CI). By default the tests check that the
+  extension package is correctly detected by Exopy. To work this requires the
   package to be INSTALLED (works in develop mode).
 
 You can also add documentation for your package. The usual tool to use is

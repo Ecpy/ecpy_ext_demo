@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 # -----------------------------------------------------------------------------
-# Copyright 2015 by Ecpy_ext_demo Authors, see AUTHORS for more details.
+# Copyright 2015 by Exopy_ext_demo Authors, see AUTHORS for more details.
 #
 # Distributed under the terms of the BSD license.
 #
 # The full license is in the file LICENCE, distributed with this software.
 # -----------------------------------------------------------------------------
-"""The version information for this release of Ecpy_ext_demo.
+"""The version information for this release of Exopy_ext_demo.
 
 """
 from __future__ import (division, unicode_literals, print_function,

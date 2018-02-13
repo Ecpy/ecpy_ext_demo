@@ -7,15 +7,15 @@ import os.path
 import sys
 
 sys.path.insert(0, os.path.abspath('.'))
-from ecpy_ext_demo.version import __version__
+from exopy_ext_demo.version import __version__
 
-PROJECT_NAME = 'ecpy_ext_demo'
+PROJECT_NAME = 'exopy_ext_demo'
 
 setup(
     name=PROJECT_NAME,
-    description='Template for Ecpy extension packages',
+    description='Template for Exopy extension packages',
     version=__version__,
-    long_description=open('README').read(),
+    long_description=open('README.md').read(),
     author='see AUTHORS',
     author_email='',
     url='',  # URL of the git repository
@@ -33,9 +33,9 @@ setup(
     zip_safe=False,
     packages=find_packages(exclude=['tests', 'tests.*']),
     package_data={'': ['*.enaml']},
-    requires=['ecpy'],
-    install_requires=['ecpy'],
+    requires=['exopy'],
+    install_requires=['exopy'],
     entry_points={
-        'ecpy_package_extension':
-        'ecpy_ext_demo = %s:list_manifests' % PROJECT_NAME}
+        'exopy_package_extension':
+        'exopy_ext_demo = %s:list_manifests' % PROJECT_NAME}
 )
